@@ -1,0 +1,48 @@
+.main__bio {
+  margin: 0;
+  padding: 20px 40px;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @media all and (min-width: $bp-tablet) {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 30px auto;
+  }
+}
+
+.info__img {
+  @media all and (min-width: $bp-tablet) {
+  margin-right: 25px;
+  }
+}
+
+.info__img--profile {
+  border-radius: 50%;
+}
+
+.info__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info__data--name {
+  font-size: 40px;
+  margin: 0 15px;
+}
+
+.info__data--front {
+  font-family: 'Inconsolata', monospace;
+  font-size: 28px;
+}
+
+.personal__info {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 20px;
+}

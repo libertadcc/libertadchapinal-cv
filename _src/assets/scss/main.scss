@@ -1,9 +1,15 @@
 @import 'core/settings';
-@import 'core/links';
+@import 'layouts/header';
+@import 'layouts/main--info';
+@import 'layouts/projects';
+@import 'layouts/tech';
+@import 'layouts/footer';
 
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
+  margin: 0;
+  padding: 0;
   height: 100vh;
-  background-color: red;
+  background-color: #F2F2F2;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
