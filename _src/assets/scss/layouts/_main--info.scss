@@ -46,3 +46,21 @@
   text-align: center;
   font-size: 20px;
 }
+
+.btn {
+  position: fixed;
+  bottom: 0;
+  margin: 0 10px 20px 0;
+  left: 85vw;
+  color: black;
+  &:hover {
+    color: #2e7c09;
+  }
+  @media all and (min-width: $bp-tablet) {
+    left: 90vw;
+  }
+}
+
+.fa-chevron-circle-up {
+  font-size: 40px;
+}

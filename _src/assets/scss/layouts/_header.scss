@@ -2,6 +2,7 @@
   width: 100vw;
   background-color: $color-green;
 }
+
 .header__wrapper {
   text-align: center;
   display: flex;
@@ -22,6 +23,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .header__menu{
   @media all and (min-width: $bp-tablet){
     display: flex;
@@ -29,6 +31,7 @@
     justify-content: space-around;
   }
 }
+
 .header__list {
   list-style: none;
   margin: 0;
@@ -45,6 +48,7 @@
 }
 
 .header__item--link {
+  color: black;
   text-decoration: none;
   @media all and (min-width: $bp-tablet){
     margin-right: 10px;
