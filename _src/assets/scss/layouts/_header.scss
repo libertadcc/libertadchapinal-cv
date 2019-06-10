@@ -53,4 +53,8 @@
   @media all and (min-width: $bp-tablet){
     margin-right: 10px;
   }
+  &:hover {
+    color: #2e7c09;
+    font-size: 25px;
+  }
 }

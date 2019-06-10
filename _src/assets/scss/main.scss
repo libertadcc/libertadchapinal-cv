@@ -5,6 +5,10 @@
 @import 'layouts/tech';
 @import 'layouts/footer';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
