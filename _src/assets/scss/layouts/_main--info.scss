@@ -73,7 +73,7 @@
   &:hover {
     color: #2e7c09;
     transform: scale(1.01);
-    transition: color ease 1.5s;
+    transition: color ease 0.5s;
   }
   @media all and (min-width: $bp-tablet) {
     left: 90vw;
